@@ -1,0 +1,119 @@
+
+license "iOS SDK for VK.
+Copyright (c) 2013 VK.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the \"Software\"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+
+resources:ios
+{
+	ic_vk_logo_nb.png
+	"ic_vk_logo_nb@2x.png"
+}
+
+public_headers
+{
+	vk-ios/models/VKApiObject.h
+	vk-ios/models/VKApiObjectArray.h
+	vk-ios/models/VKAudio.h
+	vk-ios/models/VKCounters.h
+	vk-ios/models/VKLikes.h
+	vk-ios/models/VKPhoto.h
+	vk-ios/models/VKRelative.h
+	vk-ios/models/VKSchool.h
+	vk-ios/models/VKUniversity.h
+	vk-ios/models/VKUser.h
+	vk-ios/NSData+MD5.h
+	vk-ios/NSError+VKError.h
+	vk-ios/NSString+MD5.h
+	vk-ios/OrderedDictionary.h
+	vk-ios/VKAccessToken.h
+	vk-ios/VKApi.h
+	vk-ios/VKApiBase.h
+	vk-ios/VKApiCaptcha.h
+	vk-ios/VKApiConst.h
+	vk-ios/VKApiFriends.h
+	vk-ios/VKApiModels.h
+	vk-ios/VKApiPhotos.h
+	vk-ios/VKApiUsers.h
+	vk-ios/VKApiWall.h
+	vk-ios/VKAuthorizeController.h
+	vk-ios/VKBatchRequest.h
+	vk-ios/VKBundle.h
+	vk-ios/VKCaptchaView.h
+	vk-ios/VKCaptchaViewController.h
+	vk-ios/VKError.h
+	vk-ios/VKHTTPClient.h
+	vk-ios/VKHTTPOperation.h
+	vk-ios/VKImageParameters.h
+	vk-ios/VKObject.h
+	vk-ios/VKOperation.h
+	vk-ios/VKPermissions.h
+	vk-ios/VKRequest.h
+	vk-ios/VKResponse.h
+	vk-ios/VKSdk.h
+	vk-ios/VKSdkVersion.h
+	vk-ios/VKUploadPhotoBase.h
+	vk-ios/VKUploadPhotoRequest.h
+	vk-ios/VKUploadWallPhotoRequest.h
+	vk-ios/VKUtil.h
+}
+
+sources:ios
+{
+	vk-ios/models/VKApiObject.m { arc = yes }
+	vk-ios/models/VKApiObjectArray.m { arc = yes }
+	vk-ios/models/VKAudio.m { arc = yes }
+	vk-ios/models/VKCounters.m { arc = yes }
+	vk-ios/models/VKLikes.m { arc = yes }
+	vk-ios/models/VKPhoto.m { arc = yes }
+	vk-ios/models/VKRelative.m { arc = yes }
+	vk-ios/models/VKSchool.m { arc = yes }
+	vk-ios/models/VKUniversity.m { arc = yes }
+	vk-ios/models/VKUser.m { arc = yes }
+	vk-ios/NSData+MD5.m { arc = yes }
+	vk-ios/NSError+VKError.m { arc = yes }
+	vk-ios/NSString+MD5.m { arc = yes }
+	vk-ios/OrderedDictionary.m { arc = yes }
+	vk-ios/VKAccessToken.m { arc = yes }
+	vk-ios/VKApi.m { arc = yes }
+	vk-ios/VKApiBase.m { arc = yes }
+	vk-ios/VKApiCaptcha.m { arc = yes }
+	vk-ios/VKApiFriends.m { arc = yes }
+	vk-ios/VKApiPhotos.m { arc = yes }
+	vk-ios/VKApiUsers.m { arc = yes }
+	vk-ios/VKApiWall.m { arc = yes }
+	vk-ios/VKAuthorizeController.m { arc = yes }
+	vk-ios/VKBatchRequest.m { arc = yes }
+	vk-ios/VKBundle.m { arc = yes }
+	vk-ios/VKCaptchaView.m { arc = yes }
+	vk-ios/VKCaptchaViewController.m { arc = yes }
+	vk-ios/VKError.m { arc = yes }
+	vk-ios/VKHTTPClient.m { arc = yes }
+	vk-ios/VKHTTPOperation.m { arc = yes }
+	vk-ios/VKImageParameters.m { arc = yes }
+	vk-ios/VKObject.m { arc = yes }
+	vk-ios/VKOperation.m { arc = yes }
+	vk-ios/VKPermissions.m { arc = yes }
+	vk-ios/VKRequest.m { arc = yes }
+	vk-ios/VKResponse.m { arc = yes }
+	vk-ios/VKSdk.m { arc = yes }
+	vk-ios/VKUploadPhotoBase.m { arc = yes }
+	vk-ios/VKUploadPhotoRequest.m { arc = yes }
+	vk-ios/VKUploadWallPhotoRequest.m { arc = yes }
+	vk-ios/VKUtil.m { arc = yes }
+}
